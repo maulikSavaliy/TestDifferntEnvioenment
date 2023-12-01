@@ -10,9 +10,9 @@ public class BaseTest extends BrowserManager
    {
        openBrowser();
    }
-//   @AfterMethod
-//   public void endBrowser()
-//   {
-//       closeBrowser();
-//   }
+   @AfterMethod
+   public void endBrowser()
+   {
+       closeBrowser();
+   }
 }

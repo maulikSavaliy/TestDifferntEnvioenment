@@ -12,7 +12,7 @@ public class TestSuits extends BaseTest
   @Test
     public void userShouldRegistrationSuccessfully()
   {
-    homePage.userShouldBenevigateOnHoePage();
+//    homePage.userShouldBenevigateOnHoePage();
     registationPage.userShouldBesubmmetdetailSuccessfully();
   }
   @Test
